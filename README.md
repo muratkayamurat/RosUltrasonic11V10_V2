@@ -2,10 +2,10 @@
 
 <h1>Requirements :</h1>
 
-numpy==1.13.3 :
+numpy==1.13.3 : <br/>
 $pip install numpy==1.13.3
 
-hidapi==0.10.1 :
+hidapi==0.10.1 : <br/>
 $pip install hidapi==0.10.1
 
 or directly 
@@ -28,7 +28,9 @@ pip install -r catkin_sinusoidal_rosiocard/src/sinusoidal/config/requirements.tx
 
 4- ctrl+x and Y for save the udev rules.
 
-5- sudo udevadm trigger or Reboot
+5- sudo udevadm control --reload-rules && sudo udevadm trigger 
+   or 
+   Reboot.
 
 <h1>Instalattion :</h1>
 
