@@ -190,8 +190,6 @@ if __name__ == '__main__':
             rio.read_data()
         else:
             time.sleep(5)
-            rio.module_info()
-            time.sleep(5)
             del rio
             rio = rosiocard("Sinusoidal rosIOcard")
         rate.sleep()
