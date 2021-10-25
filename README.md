@@ -32,7 +32,7 @@ pip install -r catkin_sinusoidal_rosiocard/src/sinusoidal/config/requirements.tx
 
 <h1>Instalattion :</h1>
 
-1 - git clone ......
+1 - git clone https://github.com/muratkayamurat/RosUltrasonic11V10_V2
 
 2- cd catkin_sinusoidal_rosiocard
 
