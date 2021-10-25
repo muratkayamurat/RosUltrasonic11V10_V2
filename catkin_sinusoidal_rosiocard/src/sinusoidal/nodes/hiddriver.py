@@ -100,20 +100,6 @@ class hiddriver():
                 pass
                 print(str(exc))
         return sended
-            
-
-if __name__ == '__main__':
-    RightMotor="SeomakBLDCRight"
-    LeftMotor="SeomakBLDCLeft"
-    RightMotorHid = hiddriver(RightMotor)
-    print(RightMotorHid.list_devices())
-    # LeftMotorHid = hiddriver(LeftMotor)
-    # RightMotorHid.write_device("C=+000")
-    # LeftMotorHid.write_device("C=+000")
-    # while(True):
-    print("Right Motor Speed="+RightMotorHid.read_device(64))
-    #     print("Left Motor Speed="+LeftMotorHid.read_device(64))
-
 
 
 
